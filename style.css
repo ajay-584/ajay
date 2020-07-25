@@ -463,9 +463,10 @@ header{
 .social-icons:hover{
     color: #fff;
     background: #0fffb7;
+    border: 2px solid #fff;
 }
 .fb{
-    background-color: #0#0fffb7;
+    background-color: #0b090a;
     color:#0fffb7;
 }
 .tw{
@@ -748,6 +749,7 @@ header{
     .social-icons:hover{
         color: #fff;
         background: #0fffb7;
+        border: 2px solid #fff;
     }
     .footer{
         color: #0fffb7;
