@@ -602,9 +602,9 @@ header{
     }
     .skill-box p{
         margin:10px 0 10px;
-        font-weight: none;
-        letter-spacing: 2px;
-        font-size: 30px;
+        /* font-weight: none; */
+        /* letter-spacing: 2px; */
+        font-size: 15px;
     }
     .skill-box p:nth-child(2){
         float: right;
