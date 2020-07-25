@@ -96,7 +96,7 @@ header{
     box-sizing: border-box;
     box-shadow: 0 20px 30px rgba(85, 83, 83, 0.4);
 }
-.about-box h1{
+.about-box h2{
     padding: 10px;
     margin: 0;
     color: #fff;
@@ -350,14 +350,14 @@ header{
     box-sizing: border-box;
     box-shadow: 0 20px 30px rgba(85, 83, 83, 0.4);
 }
-.contact-box h1{
+.contact-box h2{
     padding: 0;
     margin: 0;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.contact-box h2{
+.contact-box h4{
     color: #fff;
     text-align: center;
     letter-spacing: 1.5px;
