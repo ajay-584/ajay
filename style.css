@@ -190,6 +190,7 @@ header{
     float: right;
     position: relative;
     top: -25px;
+
 }
 .skill{
     background: #060405;
@@ -602,14 +603,15 @@ header{
     }
     .skill-box p{
         margin:10px 0 10px;
-        font-weight: none;
         /* letter-spacing: 2px; */
-        font-size: 20px;
+        text-transform: capitalize;
+        font-size: 25px;
     }
     .skill-box p:nth-child(2){
         float: right;
         top: -45px;
-        font-weight: none;
+
+        /* font-size: 25px; */
     }
     .project-area{
         margin: 0;
