@@ -12,7 +12,7 @@
               <div class="logo">
                   <h1><'AJAY'></h1>"
               </div>
-              <div class="menu-list" id="menu">
+              <div class="menu-list" id="menu" onclick="menu()">
                   <ul>
                       <li><a href="#1"><'Home'></a></li>
                       <li><a href="#2"><'About_Me'></a></li>
@@ -254,6 +254,11 @@
                 x.className = "menu-list";
               }
             }
+            function menu(){
+              var x = document.getElementById("menu");
+              x.className = "menu-list"
+            }
+
             </script>
           <p class='footer'><'@Copyrights 2019-20.All rights reserved'></p>
     </body>
