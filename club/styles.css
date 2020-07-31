@@ -52,7 +52,7 @@ body{
 */
  .menu{
 	 width: 100%;
-	 background: yellow;
+	 background: rgb(61, 3, 3);
 	 height: 50px;
      margin: auto;
      position: fixed;
@@ -63,6 +63,7 @@ body{
     width: 50%;
     float: left;
     padding-left: 0px;
+    color: wheat;
    
 }
 .header2{
@@ -81,11 +82,12 @@ body{
 	 text-decoration: none;
      display: inline-block;
 	 line-height: 40px;
-	 padding: 0px 15px 0px 15px;
+     padding: 0px 15px 0px 15px;
+     color: wheat;
    }
 .header2 ul li a:hover {
-  background: #ddd;
-  color: black;
+  /* background: #ddd; */
+  color: rgb(49, 7, 233);
 }
 
 /* 
