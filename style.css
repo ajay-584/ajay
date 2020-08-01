@@ -301,15 +301,15 @@ header{
     box-shadow: 1px 2px 10px 2px #0fffb7;
     margin-right: 100px;
     margin-top: 5px;
-    background-image: url(img/o1.jpg);
+    background-image: url(img/chatBot.png);
     animation:img-slider5 9s infinite linear;
     background-size: 100% 100%;
  }
- @keyframes img-slider5{
+ /* @keyframes img-slider5{
      0% {  background-image: url(img/o1.jpg); }
      35% {  background-image: url(img/o2.jpg); }
      75% { background-image: url(img/o3.jpg); }
- }
+ } */
 .slider6{
     width: 26.66%;
     height: 200px;
