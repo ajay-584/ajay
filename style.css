@@ -524,21 +524,26 @@ header{
         opacity: 1;
         visibility: visible;
         padding: 50px;
+        padding-left: 90%;
+        position: absolute;  
     }
     .menu-list.responsive{
         width: 100%!important;
-        height: 800px!important;
-        margin-top: 600px;
+        height: 550px!important;
+        margin-top: 350px;
         background: #060405;
-        padding-top: 200px;
+        padding-top: 0px;
+        position: absolute;
+        border: 1px solid red;
     }
     .menu-list.responsive li {
         display: block;
         text-align: center;
-        padding: 35px 0;
+        padding: 25px 0;
     }
     .menu-list.responsive li a{
         font-size: 45px;
+        letter-spacing: 10px;
     }
     .menu-list.responsive li {
         opacity: 1;
