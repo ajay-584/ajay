@@ -17,7 +17,7 @@ header{
     align-items: center;
     position: fixed;
     background: #060405;
-    box-shadow: 0px 1px 10px #0fffb7;
+    box-shadow: 0px 5px 10px rgba(85, 83, 83, 0.4);
 }
 .iconbar{
     color: #fff;
