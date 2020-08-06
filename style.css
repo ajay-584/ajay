@@ -533,10 +533,10 @@ header{
     .menu-list.responsive{
         width: 100%!important;
         height: 50vh!important;
-        /* margin-top: 350px; */
+        margin-top: 0px;
         top: 140px;
         background: #060405;
-        padding-top: 0px;
+        padding-top: 20px;
         position: absolute;
         border: 0.5px solid #0fffb7;
         transition: .5s;
@@ -544,7 +544,7 @@ header{
     .menu-list.responsive li {
         display: block;
         text-align: center;
-        padding: 25px 0;
+        padding: 30px 0;
     }
     .menu-list.responsive li a{
         font-size: 45px;
