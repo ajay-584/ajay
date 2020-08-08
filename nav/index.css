@@ -9,16 +9,19 @@ body{
     font-family: montserrat;
 }
 nav{
-    background: #0882e6;
+    /* background: #0882e6; */
     height: 80px;
     width: 100%;
+    /* box-shadow: 0px 10px 5px rgba(red, green, blue, alpha); */
+    box-shadow: 0 2px 5px rgba(85, 83, 83, 0.4);
 }
 label.logo{
-    color: white;
+    /* color: white; */
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+    
 }
 nav ul{
     float: right;
@@ -42,12 +45,13 @@ a.active,a:hover{
 }
 .checkbtn{
     font-size: 30px;
-    color: white;
+    /* color: white; */
     float: right;
     line-height: 80px;
     margin-right: 40px;
     cursor: pointer;
     display: none;
+    
 }
 #check{
     display: none;
