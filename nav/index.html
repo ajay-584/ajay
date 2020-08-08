@@ -10,11 +10,11 @@
 <body>
     <nav>
         <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
+        <label for="check" class="checkbtn"  onclick="icon()">
             <i class="fas fa-bars" ></i>
         </label>
         <label for="logo" class="logo">oldmela</label>
-        <ul>
+        <ul id="ul" onclick="hide()">
             <li><a class="active" href="#">Home</a></li>
             <li><a href="#">Skills</a></li>
             <li><a href="#">About</a></li>
@@ -23,5 +23,19 @@
         </ul>
     </nav>
     <section></section>
+
+    <script>
+        function icon(){
+            var x = document.getElementById('ul')
+            if (x.style.left === '-100%'){
+                x.style.left = '0';
+            }else{
+                x.style.left = '-100%'
+            }
+        }
+        function hide(){
+            document.getElementById('ul').style.left = '-100%';
+        }
+    </script>
 </body>
 </html>
