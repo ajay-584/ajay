@@ -6,3 +6,24 @@
     text-decoration: none;
 }
 /* ==============================main section======================================== */
+
+/* ==============================left section======================================== */
+.left_section{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border: 1px solid red;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sub_left_section a{
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
