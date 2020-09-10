@@ -10,45 +10,57 @@
 /* ==============================left section======================================== */
 .left_section{
     height: 100%;
-    width: 15%;
+    width: 0;
     position: fixed;
-    float: left;
+    z-index: 1;
     top: 0;
     left: 0;
-    border: 1px solid red;
+    background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 .sub_left_section a{
-    padding: 10px 6px 6px 70px;
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    text-transform: capitalize;
-    font-size: 20px;
-    color: black;
+    font-size: 25px;
+    color: #818181;
     display: block;
+    transition: 0.3s;
 }
+.sub_left_section a:hover {
+    color: #f1f1f1;
+  }
+.sub_left_section .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
 
 /* ==============================right top section======================================== */
 .right_top_section{
     border: 1px solid red;
     top: 0;
     float: right;
-    width: 85%;
+    width: 100%;
     height: 100px;
 }
 .logo{
     width: 20%;
     float: left;
-    padding: 30px 0px 0px 100px;
-    margin: auto;
+    padding: 1.5% 0%;
+    margin: 1%;
 }
 .logo h1{
     line-height: 30px;
 }
 .profile{
     float: right;
-    padding: 20px 20px;
     width: 15%;
+    padding: 0.5% 0%;
+    margin: 2%;
 }
 .profile img{
     height: 50px;
@@ -56,11 +68,10 @@
     border: 2px solid black;
     border-radius: 50%;
     float: left;
-    margin: 10px;
 }
 .profile p{
     font-size: 20px;
-    padding: 20px;
+    padding: 1.5% 0%;
 }
 
 
@@ -68,6 +79,25 @@
 .right_section{
     border: 1px solid blue;
     float: right;
-    width: 85%;
+    width: 100%;
     height: clac(100vh-100px);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================================================res ponsive section======================== */
+@media screen and (max-height: 450px) {
+    .sub_left_section {padding-top: 15px;}
+    .sub_left_section a {font-size: 18px;}
+  }

@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
 <body>
     <!----------------------------- main section started----------------------->
     <div class="main_section">
         <!-- ----------------------left section started---------------------->
-        <div class="left_section">
+        <div id="mySidenav" class="left_section">
             <!-- ---------------------- sub left section started---------------------->
             <div class="sub_left_section">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="#">Link1</a>
                 <a href="#">Link2</a>
                 <a href="#">Link3</a>
@@ -28,8 +29,10 @@
         <div class="right_top_section">
             <!-- ------------------------sub_right_section section started-------------------- -->
             <div class="sub_right_section">
+
                 <div class="logo"><h1>Logo</h1></div>  <!-- logo section -->
-                <div class="profile"><img src="new.png" alt=""><p>Name</p></div> <!-- profile section -->
+
+                <div class="profile"><img src="images/new.jpg" alt=""><p>Name</p></div> <!-- profile section -->
             </div>
             <!-- ------------------------end of sub_right_section section started-------------------- -->
 
@@ -38,11 +41,26 @@
 
         <!-- ------------------------right_section ---------------------------->
         <div class="right_section">
-
+            <!-- ------------------------Sub right_section ---------------------------->
+            <div class="sub_right_section">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            </div>
+            <!-- ------------------------End of right_section ---------------------------->
         </div>
         <!--------------------------End of right section ----------------------->
 
     </div>
     <!------------------------------- End of main section ---------------------------->
 </body>
+
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
 </html>
