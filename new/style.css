@@ -10,9 +10,9 @@
 /* ==============================left section======================================== */
 .left_section{
     height: 100%;
-    width: 200px;
+    width: 15%;
     position: fixed;
-    z-index: 1;
+    float: left;
     top: 0;
     left: 0;
     border: 1px solid red;
@@ -20,10 +20,52 @@
     padding-top: 20px;
 }
 .sub_left_section a{
-    padding: 6px 6px 6px 32px;
+    padding: 10px 6px 6px 70px;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 20px;
     color: black;
     display: block;
+}
+
+/* ==============================right top section======================================== */
+.right_top_section{
+    border: 1px solid red;
+    top: 0;
+    float: right;
+    width: 85%;
+    height: 100px;
+}
+.logo{
+    width: 20%;
+    float: left;
+    padding: 30px 0px 0px 100px;
+    margin: auto;
+}
+.logo h1{
+    line-height: 30px;
+}
+.profile{
+    float: right;
+    padding: 20px 20px;
+    width: 15%;
+}
+.profile img{
+    height: 50px;
+    width: 50px;
+    border: 5px solid black;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+.profile p{
+    font-size: 20px;
+    padding: 20px;
+}
+/* ==============================right section======================================== */
+.right_section{
+    border: 1px solid blue;
+    float: right;
+    width: 85%;
+    height: clac(100vh-100px);
 }
