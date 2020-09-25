@@ -1,15 +1,41 @@
 html{
     font-size: 62.5%;
-    box-sizing: border-box;
 }
 body{
     font: 1.6rem Helvetica;
+    box-sizing: border-box;
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 .grid-container{
     display: grid;
+    grid-template-areas: 
+    "header-area"
+    "main-area"
+    "footer-area";
     grid-template-rows:5rem 1fr 5rem;
     height: 100%;
+}
+/* =========================================Heaer section====================================== */
+.header-area{
+    grid-area: "header-area";
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+}
+/* =========================================Mian section====================================== */
+.main-area{
+    grid-area: "main-area";
+    border: 1px solid blue;
+}
+
+/* =========================================footer section====================================== */
+.footer-area{
+    grid-area: "footer-area";
+    border: 1px solid green;
 }
