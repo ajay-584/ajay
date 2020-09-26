@@ -95,7 +95,7 @@ body{
 }
 .links-box ul li{
     list-style: none;
-    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 .links-box ul li a{
     font-size: 1.6rem;
@@ -105,7 +105,7 @@ body{
 .links-box ul li a button{
     border: 1px solid #000000;
     font-weight: bold;
-    padding: 0.5rem;
+    padding-right: 0.5rem;
     letter-spacing: 0.2rem;
     outline: none;
     border-radius: 10%;
@@ -131,11 +131,10 @@ body{
     }
     .resposive-search-box{
         display: flex;
-        justify-content: space-between;
+        margin-left: 2rem;
     }
     .location-icon, .search-icon{
         margin-left: 2rem;
-        padding-left: 2rem;
     }
     .search-box{
         display: none;
