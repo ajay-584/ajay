@@ -40,6 +40,7 @@ body{
     font-size: 2rem;
     outline: none;
     /* border: none;++ */
+    border-radius: 10%;
 }
 .search-box{
     display: flex;
@@ -59,6 +60,13 @@ body{
     font-size: 1.6rem;
     text-decoration: none;
     color: #000000;
+}
+.links-box ul li a button{
+    font-weight: bold;
+    padding: 0.5rem;
+    letter-spacing: 0.2rem;
+    outline: none;
+    border-radius: 10%;
 }
 /* =========================================Mian section====================================== */
 .main-area{
