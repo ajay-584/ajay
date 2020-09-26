@@ -14,7 +14,7 @@ body{
     "header-area"
     "main-area"
     "footer-area";
-    grid-template-rows:5rem 1fr 5rem;
+    grid-template-rows: 5rem 1fr 5rem;
     height: 100%;
 }
 /* =========================================Heaer section====================================== */
@@ -37,9 +37,10 @@ body{
     padding-left: 0.5rem;
 }
 .openbtn{
+    align-items: center;
     font-size: 2rem;
     outline: none;
-    /* border: none;++ */
+    border: 1px solid #000000;
     border-radius: 10%;
 }
 .search-box{
@@ -99,6 +100,7 @@ body{
     color: #000000;
 }
 .links-box ul li a button{
+    border: 1px solid #000000;
     font-weight: bold;
     padding: 0.5rem;
     letter-spacing: 0.2rem;
@@ -127,4 +129,5 @@ body{
     .search-box{
         display: none;
     }
+
   }
