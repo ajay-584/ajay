@@ -36,6 +36,11 @@ body{
 .logo{
     padding-left: 0.5rem;
 }
+.openbtn{
+    font-size: 2.5rem;
+    outline: none;
+    /* border: none; */
+}
 .search-box{
     display: flex;
 }
