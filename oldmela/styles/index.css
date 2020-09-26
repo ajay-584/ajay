@@ -44,6 +44,7 @@ body{
 }
 .links-box ul{
     display: flex;
+    align-items: center;
 }
 .links-box ul li{
     list-style: none;
@@ -64,4 +65,5 @@ body{
 .footer-area{
     grid-area: "footer-area";
     border: 1px solid green;
+    background-color: greenyellow;
 }
