@@ -134,7 +134,8 @@ body{
         justify-content: space-between;
     }
     .location-icon, .search-icon{
-        padding:0 .5rem;
+        margin-left: 2rem;
+        padding-left: 2rem;
     }
     .search-box{
         display: none;
