@@ -74,7 +74,7 @@ html{
     padding-bottom: .5rem;
 }
 .search-container{
-    flex-basis: 40%;
+    flex-basis: 100%;
     border-radius: 10%;
     margin-left: 2rem;
 }
