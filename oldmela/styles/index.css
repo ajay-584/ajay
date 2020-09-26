@@ -132,10 +132,9 @@ body{
     }
     .resposive-search-box{
         display: flex;
-        margin-left: 1rem;
     }
     .location-icon, .search-icon{
-        margin-left: 3rem;
+        margin-left: 1.5rem;
     }
     .search-box{
         display: none;
