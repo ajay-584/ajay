@@ -134,7 +134,7 @@ body{
         display: flex;
     }
     .location-icon, .search-icon{
-        margin-left: 1.5rem;
+        margin: 0.8rem;
     }
     .search-box{
         display: none;
