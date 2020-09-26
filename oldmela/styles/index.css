@@ -43,6 +43,9 @@ body{
     border: 1px solid #000000;
     border-radius: 10%;
 }
+.resposive-search-box{
+    display: none;
+}
 .search-box{
     display: flex;
     align-items: center;
@@ -125,6 +128,13 @@ body{
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
+    }
+    .resposive-search-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .location-icon, .search-icon{
+        padding:0 .5rem;
     }
     .search-box{
         display: none;
