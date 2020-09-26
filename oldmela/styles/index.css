@@ -44,9 +44,46 @@ body{
 }
 .search-box{
     display: flex;
+    align-items: center;
+    /* display: none; */
 }
-.city-box{
-    padding-right: 1rem;
+.city-select{
+    /* padding-right: 1rem; */
+    /* position: relative; */
+    margin-right: auto;
+}
+.city-select select{
+    padding: 0.8rem;
+    outline: none;
+    border-radius: 5%;
+    font-weight: bold;
+    overflow: scroll;
+    background-color: #f0f0f0;
+}
+.city-select select option{
+    font-weight: bold;
+    background-color: #fff;
+    padding-bottom: .5rem;
+}
+.search-container{
+    border-radius: 10%;
+    margin-left: 2rem;
+}
+.from-area{
+    display: flex;
+    align-items: center;
+}
+.search-container form input{
+    width: 75rem;
+    padding: 0.7rem;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+.search-container form button{
+    width: 6rem;
+    padding: 0.7rem;
+    outline: none;
 }
 .links-box ul{
     display: flex;
@@ -80,3 +117,14 @@ body{
     border: 1px solid green;
     background-color: greenyellow;
 }
+
+/* ===============================================================Resposive Section================================ */
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .search-box{
+        display: none;
+    }
+  }
