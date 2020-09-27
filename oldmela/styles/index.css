@@ -21,9 +21,9 @@ html{
     position: fixed;
     top: 0;
     background-color: #f0f0f0;
-    transform: translateX(-30rem);
+    transform: translateX(-25rem);
     transition: all .5s;
-    width: 30rem;
+    width: 25rem;
     height: 100vh;
     border: 1px solid;
     display: flex;
@@ -170,10 +170,6 @@ html{
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
-    }
-    .sidebar{
-        transform: translateX(-20rem);
-        width: 20rem;
     }
     .resposive-search-box{
         display: flex;
