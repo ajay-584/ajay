@@ -21,9 +21,9 @@ html{
     position: fixed;
     top: 0;
     background-color: #f0f0f0;
-    transform: translateX(-30rem);
+    transform: translateX(-25rem);
     transition: all .5s;
-    width: 30rem;
+    width: 25rem;
     height: 100vh;
     border: 1px solid;
     display: flex;
