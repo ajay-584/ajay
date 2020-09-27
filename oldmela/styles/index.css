@@ -21,9 +21,9 @@ html{
     position: fixed;
     top: 0;
     background-color: #f0f0f0;
-    transform: translateX(-25rem);
+    transform: translateX(-30rem);
     transition: all .5s;
-    width: 25rem;
+    width: 30rem;
     height: 100vh;
     border: 1px solid;
     display: flex;
@@ -34,7 +34,7 @@ html{
     font-size: 2rem;
 }
 .sidebar.open{
-    transform: translateX(0);
+    transform: translateX(0%);
 }
 .closebtn{
     margin: 1rem;
@@ -148,6 +148,7 @@ html{
     letter-spacing: 0.2rem;
     outline: none;
     border-radius: 10%;
+    cursor: pointer;
 }
 /* =========================================Mian section====================================== */
 .main-area{
@@ -176,8 +177,13 @@ html{
     }
     .location-icon, .search-icon{
         margin: 0.8rem;
+        cursor: pointer;
+        /* display: none; */
     }
-    .search-box{
+    .city-select{
+        display: none;
+    }
+    .search-container{
         display: none;
     }
     .links-box ul li{

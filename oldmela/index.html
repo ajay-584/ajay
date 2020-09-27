@@ -16,7 +16,7 @@
         <div class="logo"><h1>oldmela</h1></div>
       </div>
       <div class="search-box">
-        <div class="city-select">
+        <div id="city-select" class="city-select">
           <select>
             <option value="0">Select City</option>
             <option value="1">Patna</option>
@@ -33,7 +33,7 @@
             <option value="12">Volvo</option>
           </select>
         </div>
-        <div class="search-container">
+        <div id="search-container" class="search-container">
           <form class="from-area" action="index.html">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
@@ -44,8 +44,8 @@
       <div class="links-box">
         <ul>
           <li>      <div class="resposive-search-box">
-            <div class="location-icon"><i style='font-size:3rem' class='fas'>&#xf3c5;</i></div>
-            <div class="search-icon"><i style='font-size:3rem' class='fas'>&#xf002;</i></div>
+            <div id="location-icon" class="location-icon" onclick="selcetcity()"><i style='font-size:3rem' class='fas'>&#xf3c5;</i></div>
+            <div id="search-icon" class="search-icon" onclick="searchitem()"><i style='font-size:3rem' class='fas'>&#xf002;</i></div>
           </div></li>
           <li><a href=""><button>SELL</button></a></li>
           <li><a href=""> <i style='font-size:3.5rem' class='far' >&#xf2bd;</i> </a></li>
@@ -77,6 +77,17 @@
       }
       function closeSideBar(){
         document.querySelector(".sidebar").classList.remove("open");
+      }
+      function selcetcity(){
+       document.getElementById("city-select").style.display="block"; 
+       document.getElementById("location-icon").style.display="none";
+      //  document.getElementById("search-icon").style.display="none";
+      }
+      function searchitem(){
+       document.getElementById("location-icon").style.display="none";
+       document.getElementById("search-icon").style.display="none";
+       document.getElementById("search-container").style.display="block";
+
       }
     </script>
 </body>
