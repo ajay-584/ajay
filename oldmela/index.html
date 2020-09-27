@@ -12,7 +12,7 @@
     <!-- ==================================================Hader Area========================================================= -->
     <div class="header-area">
       <div class="logo-box">
-        <div class="iconbar"><button class="openbtn" onclick="openNav()"><i style='font-size:2rem' class='fas'>&#xf0c9;</i></button></div>
+        <div class="iconbar"><button class="openbtn" onclick="opensidebar()"><i style='font-size:2rem' class='fas'>&#xf0c9;</i></button></div>
         <div class="logo"><h1>oldmela</h1></div>
       </div>
       <div class="search-box">
@@ -53,6 +53,15 @@
       </div>
       
     </div>
+    <!-- ==================================================End of Header section========================================================= -->
+
+    <!-- ==================================================Side Bar Area start========================================================= -->
+    <aside class="sidebar">
+      <div><h1>Categroies</h1></div>
+      <div><button class="closebtn" onclick="closeSideBar()"><i style='font-size:2rem' class='fas'>&#xf00d;</i>
+      </button></div>
+    </aside>
+    <!-- ==================================================End of Side Bar Area========================================================= -->
     <!-- ==================================================Main Area========================================================= -->
     <div class="main-area">
       <h2>main area</h2>
@@ -61,5 +70,14 @@
     <div class="footer-area">
       footer area
     </div>
+
+    <script>
+      function opensidebar(){
+        document.querySelector(".sidebar").classList.add("open");
+      }
+      function closeSideBar(){
+        document.querySelector(".sidebar").classList.remove("open");
+      }
+    </script>
 </body>
 </html>
