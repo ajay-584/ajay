@@ -45,6 +45,11 @@ html{
     border-radius: 10%;
     cursor: pointer;
 }
+.city{
+    width: 100%;
+    height: 100vh;
+    background-color: lightcyan;
+}
 /* =========================================Heaer section====================================== */
 .header-area{
     width: 100%;
@@ -178,7 +183,6 @@ html{
     .location-icon, .search-icon{
         margin: 0.8rem;
         cursor: pointer;
-        /* display: none; */
     }
     .city-select{
         display: none;
