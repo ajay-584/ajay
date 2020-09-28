@@ -60,6 +60,7 @@
       <div><h1>Categroies</h1></div>
       <div><button class="closebtn" onclick="closeSideBar()"><i style='font-size:2rem' class='fas'>&#xf00d;</i></button></div>
     </aside>
+    <!-- select city section -->
     <aside class="city">
       <div  class="responsive-city">
         <select>
@@ -69,6 +70,15 @@
           <option value="3">Chhpra</option>
         </select>
         <div><button class="city-close-btn" onclick="removecity()"><i style='font-size:3rem' class='fas'>&#xf00d;</i></button></div>
+      </div>
+    </aside>
+    <!-- Serach section -->
+    <aside class="search">
+      <div class="search-div">
+        <form  action="index.html">
+          <input type="text" placeholder="Search.." name="search">
+          <button onclick="closesearch()" type="submit"><i style="font-size: 3rem;" class="fa fa-search"></i></button>
+        </form>
       </div>
     </aside>
     <!-- ==================================================End of Side Bar Area========================================================= -->
@@ -94,12 +104,12 @@
       function removecity(){
         document.querySelector(".city").classList.remove("city-open");
       }
-      // function searchitem(){
-      // //  document.getElementById("location-icon").style.display="none";
-      // //  document.getElementById("search-icon").style.display="none";
-      // //  document.getElementById("search-container").style.display="block";
-
-      // }
+      function searchitem(){
+        document.querySelector(".search").classList.add("search-open");
+      }
+      function closesearch(){
+        document.querySelector(".search").classList.remove("search-open");
+      }
     </script>
 </body>
 </html>
