@@ -76,11 +76,13 @@ html{
     overflow: scroll;
     background-color: #f0f0f0;
     align-items: center;
+    letter-spacing: 0.2rem;
 }
 .responsive-city select option{
     font-weight: bold;
     background-color: #fff;
     padding-bottom: .5rem;
+    /* letter-spacing: 0.5rem; */
 }
 /* =========================================Heaer section====================================== */
 .header-area{
