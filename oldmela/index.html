@@ -57,8 +57,19 @@
 
     <!-- ==================================================Side Bar Area start========================================================= -->
     <aside class="sidebar">
-      <div><h1>Categroies</h1></div>
-      <div><button class="closebtn" onclick="closeSideBar()"><i style='font-size:2rem' class='fas'>&#xf00d;</i></button></div>
+      <div class="sidebar-header">
+        <h1>Categroies</h1>
+        <button class="closebtn" onclick="closeSideBar()"><i style='font-size:2rem' class='fas'>&#xf00d;</i></button>
+      </div>
+      <div class="sidebar-links">
+        <button onclick="opensidebarlinks()">Heading-1</button>
+        <div id="sidebar-link" class="sidebar-link">
+          <a href="">Link-1</a>
+          <a href="">Link-2</a>
+          <a href="">Link-3</a>
+        </div>
+        <button>Heading-2</button>
+      </div>
     </aside>
     <!-- select city section -->
     <aside class="city">
@@ -130,6 +141,14 @@
       function colseprofile(){
         var x = document.getElementById("profile");
         x.classList.remove("open-profile");
+      }
+      function opensidebarlinks(){
+        var x = document.getElementById("sidebar-link");
+        if (x.style.display === "none"){
+          x.style.display="block";
+        }else{
+          x.style.display="none";
+        }
       }
     </script>
 </body>

@@ -18,7 +18,7 @@ html{
 }
 /* =========================================Side Bar section====================================== */
 .sidebar{
-    position: fixed;
+    position: absolute;
     top: 0;
     background-color: #f0f0f0;
     transform: translateX(-30rem);
@@ -26,8 +26,43 @@ html{
     width: 30rem;
     height: 100vh;
     border: 1px solid;
+}
+.sidebar-header{
     display: flex;
+    height: 5rem;
     justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+    border-bottom:1px solid ;
+}
+.sidebar-links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-links button{
+    height: 4rem;
+    padding: 0.6rem;
+    font-size: 1.5rem;
+    outline: none;
+    /* border-bottom: 1px solid; */
+}
+.sidebar-link{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+}
+.sidebar-link a{
+    height: 3.5rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding: .5rem;
+    display: block;
+    transition: all .5s;
 }
 .sidebar h1{
     margin: 1rem 0rem 0rem 3rem;
