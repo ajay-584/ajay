@@ -110,6 +110,17 @@ html{
     width: 8rem;
     font-size: 2rem;
 }
+.profile-box{
+    position: absolute;
+    float: right;
+    width: -18rem;
+    right: .5rem;
+    top: 5rem;
+    height: 15rem;
+    background-color: #f0f0f0;
+    /* border: 1px solid; */
+    /* transform: translateZ(-15rem); */
+}
 /* =========================================Heaer section====================================== */
 .header-area{
     width: 100%;
@@ -213,6 +224,9 @@ html{
     letter-spacing: 0.2rem;
     outline: none;
     border-radius: 10%;
+    cursor: pointer;
+}
+.profile{
     cursor: pointer;
 }
 /* =========================================Mian section====================================== */
