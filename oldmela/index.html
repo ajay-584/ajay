@@ -82,8 +82,13 @@
       </div>
     </aside>
     <!-- Profile sections -->
-    <aside class="profile-box">
-      
+    <aside id="profile" class="profile-box">
+      <div class="profile-links">
+        <ul onclick="colseprofile()">
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">Sign Up</a></li>
+        </ul>
+      </div>
     </aside>
     <!-- ==================================================End of Side Bar Area========================================================= -->
     <!-- ==================================================Main Area========================================================= -->
@@ -92,7 +97,7 @@
     </div>
     <!-- ==================================================footer Area========================================================= -->
     <div class="footer-area">
-      footer area
+      <div><h3>footer area</h3></div>
     </div>
 
     <script>
@@ -113,6 +118,18 @@
       }
       function closesearch(){
         document.querySelector(".search").classList.remove("search-open");
+      }
+      function profile(){
+        var x = document.getElementById("profile");
+        if(x.className == "profile-box"){
+          x.classList.add("open-profile");
+        }else{
+          x.classList.remove("open-profile");
+        }
+      }
+      function colseprofile(){
+        var x = document.getElementById("profile");
+        x.classList.remove("open-profile");
       }
     </script>
 </body>

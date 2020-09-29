@@ -112,15 +112,46 @@ html{
 }
 .profile-box{
     position: absolute;
-    float: right;
-    width: -18rem;
+    /* float: right; */
+    width: 15rem;
     right: .5rem;
+    transition: all .5s;
     top: 5rem;
-    height: 15rem;
+    height: auto;
     background-color: #f0f0f0;
-    /* border: 1px solid; */
-    /* transform: translateZ(-15rem); */
+    border: 1px solid;
+    border-radius: .3rem;
+    display: none;
 }
+.open-profile{
+    display: block;
+}
+.profile-links{
+    width: 100%;
+}
+.profile-links ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile-links ul li{
+    width: 100%;
+    border-bottom: 1px solid;
+    list-style: none;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.profile-links ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    letter-spacing: 0.2rem;
+}
+
 /* =========================================Heaer section====================================== */
 .header-area{
     width: 100%;
@@ -241,15 +272,18 @@ html{
 .footer-area{
     width: 100%;
     grid-area: "footer-area";
-    border: 1px solid green;
-    background-color: greenyellow;
+    border-top: 1px solid;
+    background-color: #f0f0f0f0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
 /* ===============================================================Resposive Section================================ */
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+      background-color: #fff;
     }
     .resposive-search-box{
         display: flex;
@@ -267,6 +301,9 @@ html{
     .links-box ul li{
         padding-left: 1.5rem;
         padding-right: 0;
+    }
+    .profile-box{
+        width: 10rem;
     }
 
   }
