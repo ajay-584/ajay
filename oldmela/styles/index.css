@@ -52,6 +52,7 @@ html{
     flex-direction: column;
     width: 100%;
     display: none;
+    background-color: #fff;
 }
 .sidebar-link a{
     height: 3.5rem;
@@ -63,6 +64,7 @@ html{
     padding: .5rem;
     display: block;
     transition: all .5s;
+    color: black;
 }
 .sidebar h1{
     margin: 1rem 0rem 0rem 3rem;
