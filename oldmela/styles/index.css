@@ -43,7 +43,8 @@ html{
 .sidebar-links button{
     height: 4rem;
     padding: 0.6rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
     outline: none;
     /* border-bottom: 1px solid; */
 }
@@ -57,7 +58,7 @@ html{
 .sidebar-link a{
     height: 3.5rem;
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
     align-items: center;
     border-bottom: 1px solid;
@@ -69,6 +70,7 @@ html{
 .sidebar h1{
     margin: 1rem 0rem 0rem 3rem;
     font-size: 2rem;
+    font-weight: bold;
 }
 .sidebar.open{
     transform: translateX(0%);
