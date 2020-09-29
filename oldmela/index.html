@@ -8,14 +8,22 @@
   <title>oldmela.com</title>
 </head>
 <body>
+  <!-- This is main grid container which cantian the three section first header second main area and last is footer section -->
   <div class="grid-container">
     <!-- ==================================================Hader Area========================================================= -->
     <div class="header-area">
+      <!-- So in the head area have three section in one row first is logo boax in left side  second search box in center and last is links box in right side like sell and profile links  -->
+      <!-- This if frist logo and side bar button section -->
       <div class="logo-box">
+        <!-- There is button for side bar -->
         <div class="iconbar"><button class="openbtn" onclick="opensidebar()"><i style='font-size:2rem' class='fas'>&#xf0c9;</i></button></div>
+        <!-- Thsi main logo or brand name which is oldmela -->
         <div class="logo"><h1>oldmela</h1></div>
       </div>
+      <!-- End of logo box  -->
+      <!-- This is second section which is search box the search bax has two section first for select city and second is search item in one row -->
       <div class="search-box">
+        <!-- select city section for desktop view -->
         <div id="city-select" class="city-select">
           <select>
             <option value="0">Select City</option>
@@ -33,6 +41,7 @@
             <option value="12">Volvo</option>
           </select>
         </div>
+        <!-- This is search area for desk to view like search any items of products -->
         <div id="search-container" class="search-container">
           <form class="from-area" action="index.html">
             <input type="text" placeholder="Search.." name="search">
@@ -40,14 +49,18 @@
           </form>
         </div>
       </div>
-
+      <!-- End of search box section -->
+      <!-- Thsi is links area for both desktop and mobile view it has two section first is sell item link and second is profile button -->
       <div class="links-box">
         <ul>
+          <!-- This is location icon and search icon which is hide for destop it is for mobile view -->
           <li>      <div class="resposive-search-box">
             <div class="location-icon" onclick="selcetcity()"><i style='font-size:3rem' class='fas'>&#xf3c5;</i></div>
             <div class="search-icon" onclick="searchitem()"><i style='font-size:3rem' class='fas'>&#xf002;</i></div>
           </div></li>
+          <!-- This part is for both mobile and also desktop views -->
           <li><a href=""><button>SELL</button></a></li>
+          <!-- This is profile seciton where shows the sign in and sign up after click -->
           <li><div onclick="profile()" class="profile"><i style='font-size:3.5rem' class='far' >&#xf2bd;</i></div></li>
         </ul>
       </div>
@@ -56,13 +69,18 @@
     <!-- ==================================================End of Header section========================================================= -->
 
     <!-- ==================================================Side Bar Area start========================================================= -->
+    <!-- Sidebar section means categories section -->
     <aside class="sidebar">
+      <!-- Heading area -->
       <div class="sidebar-header">
         <h1>Categroies</h1>
         <button class="closebtn" onclick="closeSideBar()"><i style='font-size:2rem' class='fas'>&#xf00d;</i></button>
       </div>
+      <!-- End of heading area -->
+      <!-- Thsi is list of categores in side bar like books, electronics -->
       <div class="sidebar-links">
         <button onclick="opensidebarlinks()">Heading-1</button>
+        <!-- This is sub links area like engg books, medical books -->
         <div id="sidebar-link" class="sidebar-link">
           <a href="">Link-1</a>
           <a href="">Link-2</a>
@@ -70,7 +88,9 @@
         </div>
         <button>Heading-2</button>
       </div>
+      <!-- End of list of  -->
     </aside>
+    <!-- End of side bar section  -->
     <!-- select city section -->
     <aside class="city">
       <div  class="responsive-city">
@@ -110,7 +130,7 @@
     <div class="footer-area">
       <div><h3>footer area</h3></div>
     </div>
-
+     <!-- ==================================================End of footer Area========================================================= -->
     <script>
       function opensidebar(){
         document.querySelector(".sidebar").classList.add("open");
@@ -144,10 +164,10 @@
       }
       function opensidebarlinks(){
         var x = document.getElementById("sidebar-link");
-        if (x.style.display === "none"){
-          x.style.display="block";
+        if (x.className === "sidebar-link"){
+          x.classList.add("sidebar-link-open");
         }else{
-          x.style.display="none";
+          x.classList.remove("sidebar-link-open");
         }
       }
     </script>
