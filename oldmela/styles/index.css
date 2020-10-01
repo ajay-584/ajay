@@ -317,11 +317,12 @@ html{
     justify-content: center;
     flex-wrap: wrap;
     border: 1px solid blue;
+    /* margin: 0 15rem; */
 }
 .card{
     width: 25rem;
     height: 32rem;
-    margin: 1rem 3rem 1rem 0;
+    margin: 1rem 1.5rem;
     box-shadow: 0px 1px 1px #888888;
     background-color: #f0f0f0;
 }
@@ -383,6 +384,11 @@ html{
     }
     .profile-box{
         width: 10rem;
+    }
+    .card{
+        margin: 0;
+        width: 20rem;
+        margin: 0.5rem;
     }
 
   }
