@@ -19,7 +19,7 @@ html{
 }
 /* =========================================Side Bar section====================================== */
 .sidebar{
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: #f0f0f0;
     transform: translateX(-30rem);
