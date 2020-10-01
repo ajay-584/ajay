@@ -6,6 +6,7 @@ html{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* background-color: #f9f9f9f9; */
 }
 .grid-container{
     display: grid;
@@ -307,10 +308,44 @@ html{
 /* =========================================Mian section====================================== */
 .main-area{
     width: 100%;
-    height: 90vh;
+    /* height: 90vh; */
     grid-area: "main-area";
     /* border: 1px solid blue; */
 }
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+}
+.card{
+    width: 25rem;
+    height: 30rem;
+    margin: 3rem;
+    border: 1px solid red;
+    background-color: #f0f0f0;
+}
+.image-section img{
+    width: 100%;
+    height: 20rem;
+    border: 1px solid;
+}
+.details-section{
+    width: 100%;
+}
+.details-section ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem;
+}
+.details-section ul li{
+    list-style: none;
+    width: 100%;
+    margin: 0.4rem;
+}
+
 
 /* =========================================footer section====================================== */
 .footer-area{
