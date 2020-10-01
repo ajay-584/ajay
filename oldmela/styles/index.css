@@ -388,7 +388,11 @@ html{
     .card{
         margin: 0;
         width: 17rem;
+        height: 28rem;
         margin: 0.5rem;
+    }
+    .image-section img{
+        height: 18rem;
     }
 
   }
