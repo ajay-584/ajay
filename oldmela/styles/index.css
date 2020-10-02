@@ -317,7 +317,8 @@ html{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid blue;
+    /* padding: 1rem 0; */
+    /* border: 1px solid blue; */
     /* margin: 0 15rem; */
 }
 .card{
@@ -397,8 +398,8 @@ html{
         flex-direction: row;
     }
     .image-section img{
-        height: 18rem;
-        width: 25rem;
+        height: 15rem;
+        width: 20rem;
         padding: 0.5rem;
     }
 
