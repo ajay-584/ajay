@@ -14,7 +14,7 @@ html{
     "header-area"
     "main-area"
     "footer-area";
-    grid-template-rows: 5rem 1fr 5rem;
+    grid-template-rows: 5rem 1fr 4rem;
     height: 100%;
 }
 /* =========================================Side Bar section====================================== */
@@ -404,11 +404,11 @@ html{
     }
     .image-section img{
         height: 12rem;
-        width: 20rem;
-        padding: 0.5rem;
+        width: 18rem;
+        padding: 0.8rem;
     }
     .details-section ul li{
-        margin: 0.7rem 0 0 0;
+        margin: 0.4rem 0;
     }
 
   }
