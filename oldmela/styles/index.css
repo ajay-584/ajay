@@ -403,9 +403,12 @@ html{
         flex-direction: row;
     }
     .image-section img{
-        height: 15rem;
+        height: 12rem;
         width: 20rem;
         padding: 0.5rem;
+    }
+    .details-section ul li{
+        margin: 0.7rem 0 0 0;
     }
 
   }
