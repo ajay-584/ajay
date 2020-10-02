@@ -390,12 +390,16 @@ html{
     }
     .card{
         margin: 0;
-        width: 17rem;
-        height: 28rem;
+        width: 100%;
+        height: auto;
         margin: 0.5rem;
+        display: flex;
+        flex-direction: row;
     }
     .image-section img{
         height: 18rem;
+        width: 25rem;
+        padding: 0.5rem;
     }
 
   }
