@@ -324,14 +324,17 @@ html{
 .cards a{
     text-decoration: none;
     color: #000000;
+    outline: none;
+    margin: 0;
+    padding: 0;
 }
 .card{
     width: 24rem;
     /* height: 32rem; */
     border: 1px solid #f0f0f0;
-    margin: 1.5rem 2rem;
     box-shadow: 0 0.5px 1px #888888;
     background-color: #ffffff;
+    margin: 1.5rem 2rem;
     border-radius: .5rem;
     padding: 0.5rem;
 }
@@ -388,13 +391,16 @@ html{
     margin: 2rem;
     width: 30%;
     height: 40rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 1rem;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0.5px 1px #888888;
+    background-color: #ffffff;
 }
 .ads-image .big-image{
     height: 80%;
     background-color: #000000;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
 }
 .big-image img{
     height: 100%;
@@ -402,14 +408,17 @@ html{
 }
 .ads-image .small-image{
     height: 20%;
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
 }
 .ads-details{
     margin: 2rem;
     width: 20%;
     height: 20rem;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 1rem;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0.5px 1px #888888;
+    background-color: #ffffff;
 }
 .ads-details h2{
     font-weight: bold;
@@ -428,8 +437,11 @@ html{
     margin: 2rem;
     width: 20%;
     height: 20rem;
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     padding: 1rem;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0.5px 1px #888888;
+    background-color: #ffffff;
 }
 .ads-contact-details h2{
     font-weight: bold;
@@ -493,17 +505,17 @@ html{
     }
     .ads-image{
         width: 100%;
-        margin: 0;
+        margin:.5rem 0;
     }
     .ads-details{
         width: 100%;
         /* padding: 0; */
-        margin: 0;
+        margin:.5rem 0;
         height: auto;
     }
     .ads-contact-details{
         width: 100%;
-        margin: 0;
+        margin:.5rem 0;
         height: auto;
     }
 
