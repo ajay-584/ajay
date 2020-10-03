@@ -409,6 +409,17 @@ html{
 .ads-image .small-image{
     height: 20%;
     /* border: 1px solid blueviolet; */
+    /* padding: 0.5rem; */
+}
+.small-image img{
+    margin: 0.7rem;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 0.3rem;
+    border: 1px solid #f0f0f0;
+}
+.small-image img:hover{
+    border: 1px solid;
 }
 .ads-details{
     margin: 2rem;
