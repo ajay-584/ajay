@@ -321,6 +321,10 @@ html{
     /* border: 1px solid blue; */
     /* margin: 0 15rem; */
 }
+.cards a{
+    text-decoration: none;
+    color: #000000;
+}
 .card{
     width: 24rem;
     /* height: 32rem; */
@@ -356,6 +360,7 @@ html{
     margin: 0.4rem;
     overflow: hidden;
     /* text-align: left; */
+    /* color: red; */
 }
 
 
@@ -370,6 +375,70 @@ html{
     align-items: center;
 }
 
+/* =========================================Add page section====================================== */
+.ads{
+    width: 100%;
+    /* min-height: 100vh; */
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ads-image{
+    margin: 2rem;
+    width: 30%;
+    height: 40rem;
+    border: 1px solid red;
+    padding: 1rem;
+}
+.ads-image .big-image{
+    height: 80%;
+    border: 1px dotted red;
+}
+.ads-image .small-image{
+    height: 20%;
+    border: 1px solid blueviolet;
+}
+.ads-details{
+    margin: 2rem;
+    width: 20%;
+    height: 20rem;
+    border: 1px solid blue;
+    padding: 1rem;
+}
+.ads-details h2{
+    font-weight: bold;
+    border-bottom: 1px solid #f0f0f0;
+}
+.ads-details ul{
+    width: 100%;
+}
+.ads-details ul li{
+    list-style: none;
+    margin: 0.5rem 0;
+    display: block;
+    width: 100%;
+}
+.ads-contact-details{
+    margin: 2rem;
+    width: 20%;
+    height: 20rem;
+    border: 1px solid blueviolet;
+    padding: 1rem;
+}
+.ads-contact-details h2{
+    font-weight: bold;
+    border-bottom: 1px solid #f0f0f0;
+}
+.ads-contact-details ul{
+    width: 100%;
+}
+.ads-contact-details ul li{
+    list-style: none;
+    margin: 0.5rem 0;
+    display: block;
+    width: 100%;
+}
 /* ===============================================================Resposive Section================================ */
 
 @media only screen and (max-width: 600px) {
@@ -411,6 +480,26 @@ html{
     }
     .details-section ul li{
         margin: 0.4rem 0;
+    }
+    .ads{
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+    .ads-image{
+        width: 100%;
+        margin: 0;
+    }
+    .ads-details{
+        width: 100%;
+        /* padding: 0; */
+        margin: 0;
+        height: auto;
+    }
+    .ads-contact-details{
+        width: 100%;
+        margin: 0;
+        height: auto;
     }
 
   }
