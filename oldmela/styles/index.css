@@ -375,11 +375,11 @@ html{
     align-items: center;
 }
 
-/* =========================================Add page section====================================== */
+/* =========================================Ads page section====================================== */
 .ads{
     width: 100%;
     /* min-height: 100vh; */
-    border: 1px solid;
+    /* border: 1px solid; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -393,7 +393,12 @@ html{
 }
 .ads-image .big-image{
     height: 80%;
+    background-color: #000000;
     border: 1px dotted red;
+}
+.big-image img{
+    height: 100%;
+    width: 100%;
 }
 .ads-image .small-image{
     height: 20%;
