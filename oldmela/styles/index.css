@@ -476,15 +476,12 @@ html{
     justify-content: center;
 }
 .model{
-    /* padding-top: 0.5rem; */
-    /* border: 1px solid #f0f0f0; */
-    /* box-shadow: 0 0.5px 1px #888888; */
     width: 45rem;
     /* height: 50rem; */
-    position: fixed;
+    /* position: fixed; */
   }
  .user-img {
-    padding: 5rem 0 0 0;
+    padding: 2rem 0 0 0;
     width: 100%;
     height: auto;
     display: flex;
