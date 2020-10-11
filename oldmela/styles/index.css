@@ -481,7 +481,7 @@ html{
     /* position: fixed; */
   }
  .user-img {
-    padding: 1rem 0 0 0;
+    padding: .5rem 0 0 0;
     width: 100%;
     height: auto;
     display: flex;
