@@ -467,6 +467,66 @@ html{
     display: block;
     width: 100%;
 }
+/* ===============================================================User login Section================================ */
+.login-area{
+    padding-top: 0.5rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.model{
+    /* padding-top: 0.5rem; */
+    /* border: 1px solid #f0f0f0; */
+    box-shadow: 0 0.5px 1px #888888;
+    width: 30%;
+    /* height: 50rem; */
+    position: fixed;
+  }
+ .user-img {
+    padding: 5rem 0 0 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .user-img img{
+      padding: 1rem;
+      width: 20rem;
+      /* border: 5px solid #000; */
+      border-radius: 50%;
+  }
+.frm{
+    padding: 0.5rem;
+}
+.input-area{
+    width: 100%;
+    height: auto;
+}
+.input-area input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    /* box-sizing: border-box; */
+}
+.input-area button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.input-area button:hover {
+    opacity: 0.8;
+  }
+.psw {
+    float: right;
+    padding-bottom: 1rem;
+  }
 /* ===============================================================Resposive Section================================ */
 
 @media only screen and (max-width: 600px) {
@@ -528,6 +588,9 @@ html{
         width: 100%;
         margin:.5rem 0;
         height: auto;
+    }
+    .model{
+        width:100%
     }
 
   }
