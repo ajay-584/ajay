@@ -478,8 +478,8 @@ html{
 .model{
     /* padding-top: 0.5rem; */
     /* border: 1px solid #f0f0f0; */
-    box-shadow: 0 0.5px 1px #888888;
-    width: 30%;
+    /* box-shadow: 0 0.5px 1px #888888; */
+    width: 45rem;
     /* height: 50rem; */
     position: fixed;
   }
