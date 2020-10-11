@@ -488,7 +488,7 @@ html{
     justify-content: center;
   }
   .user-img img{
-      padding: 1rem;
+      padding: .5rem;
       width: 20rem;
       /* border: 5px solid #000; */
       border-radius: 50%;
