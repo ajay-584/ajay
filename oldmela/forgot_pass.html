@@ -61,7 +61,7 @@
           <!-- This part is for both mobile and also desktop views -->
           <li><a href=""><button>SELL</button></a></li>
           <!-- This is profile seciton where shows the sign in and sign up after click -->
-          <li><a href="login.html"><div class="profile"><i style='font-size:3.5rem' class='far' >&#xf2bd;</i></div></a></li>
+          <li><div onclick="profile()" class="profile"><i style='font-size:3.5rem' class='far' >&#xf2bd;</i></div></li>
         </ul>
       </div>
       
@@ -127,124 +127,25 @@
     <!-- ==================================================End of Side Bar Area========================================================= -->
     <!-- ==================================================Main Area========================================================= -->
     <div class="main-area">
-      <div class="cards">
-        
-        <div class="card">
-          <a href="ads.html">
-          <div class="image-section">
-            <img src="http://oldmela.com/customer/images/IMG_20180929_091607.jpg" alt="">
-          </div>
-        </a>
-          <div class="details-section">
-            <ul>
-              <li><a href="ads.html">The wonderful cycle for the best for you</a></li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>50000</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-        
+        <div class="login-area">
+            <div class="model">
+                <div class="user-img">
+                    <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+                </div>
+                <div class="form-area">
+                    <form class="frm" action="/verification.html" method="post">
+                        <div class="input-area">
+                          <label for="uname"><b>Username</b></label>
+                          <input type="text" placeholder="Enter Username" name="uname" required>
+                            
+                          <button type="submit">Submit</button>
 
-        <div class="card">
-          <div class="image-section">
-            <img src="http://oldmela.com/customer/images/IMG_20181231_114520_900.jpg" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-section">
-            <img src="http://oldmela.com/customer/images/IMG_20181105_122855.jpg" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-section">
-            <img src="http://oldmela.com/customer/images/IMG_20180929_091607.jpg" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-section">
-            <img src="http://oldmela.com/customer/images/IMG_20180929_091607.jpg" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-section">
-            <img src="http://oldmela.com/customer/images/IMG_20181105_122855.jpg" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-section">
-            <img src="http://oldmela.com/customer/images/IMG_20180929_091607.jpg" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-section">
-            <img src="http://oldmela.com/customer/images/IMG_20181105_122855.jpg" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
+                          <a href="login.html"><button type="button">Back To Login</button></a>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div> <!--End of login area  -->
     </div>
     <!-- ==================================================footer Area========================================================= -->
     <div class="footer-area">
@@ -290,6 +191,7 @@
           x.classList.remove("sidebar-link-open");
         }
       }
+
     </script>
 </body>
 </html>
