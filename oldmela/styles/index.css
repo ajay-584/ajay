@@ -548,13 +548,13 @@ html{
 .profile-image-section{
     width: 100%;
     padding: 0.5rem;
-    height: 15rem;
+    /* height: 10rem; */
     display: flex;
     justify-content: center;
 }
 .profile-image-section img{
-    width: 15rem;
-    height: 15rem;
+    width: 60%;
+    height: 60%;
     border-radius: 50%;
     padding: 0.5rem;
 }
@@ -662,8 +662,12 @@ html{
         margin: 0;
     }
     .right-area{
-        /* display: none; */
+        display: none;
         width: 100%;
+    }
+    .profile-image-section img{
+        width: 35%;
+        height: 35%;
     }
 
   }
