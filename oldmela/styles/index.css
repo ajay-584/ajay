@@ -561,8 +561,8 @@ html{
 .user-name-section{
     display: flex;
     justify-content: center;
-    font-weight: bold;
-    padding: 1rem 0 1rem 0;
+    /* font-weight: bold; */
+    padding: .5rem 0 0 0;
 }
 .profile-options-section ul{
     width: 100%;
@@ -572,7 +572,7 @@ html{
     list-style: none;
     width: 100%;
     display: block;
-    padding: 0.5rem 0 0 0;
+    padding: 0.7rem 0 0 0;
 }
 .profile-options-section ul li button{
     width: 100%;
