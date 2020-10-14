@@ -525,6 +525,65 @@ html{
     float: right;
     padding-bottom: 1rem;
   }
+
+/* ===============================================================User profile Section================================ */
+.profile-area{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.left-area{
+    width: 20%;
+    /* height: 50rem; */
+    margin: 0 5rem;
+    /* border: 1px solid; */
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0.5px 1px #888888;
+    padding: .5rem;
+}
+.profile-image-section{
+    width: 100%;
+    padding: 0.5rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+}
+.profile-image-section img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.user-name-section{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 1rem 0 1rem 0;
+}
+.profile-options-section ul{
+    width: 100%;
+    padding: 0.5rem;
+}
+.profile-options-section ul li{
+    list-style: none;
+    width: 100%;
+    display: block;
+    padding: 0.5rem 0 0 0;
+}
+.profile-options-section ul li button{
+    width: 100%;
+    padding: 1rem;
+    font-weight: bold;
+}
+.right-area{
+    width: 70%;
+    /* height: 70rem; */
+    margin: 0 5rem 0 0;
+    border: 1px solid;
+}
 /* ===============================================================Resposive Section================================ */
 
 @media only screen and (max-width: 600px) {
@@ -589,6 +648,17 @@ html{
     }
     .model{
         width:100%
+    }
+    .profile-area{
+        flex-direction: column;
+    }
+    .left-area{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .right-area{
+        display: none;
     }
 
   }
