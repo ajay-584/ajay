@@ -659,7 +659,8 @@ html{
         margin: 0;
     }
     .right-area{
-        display: none;
+        /* display: none; */
+        width: 100%;
     }
 
   }
