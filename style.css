@@ -591,10 +591,11 @@ header{
         margin: auto;
     }
     .story p{
+        justify-content: center;
         font-weight:none;
         padding: 5px;
         letter-spacing: 2px;
-        font-size: 18px;
+        font-size: 1.2rem;
         line-height: 30px;
     }
     .btn{
