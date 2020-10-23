@@ -59,9 +59,9 @@
             <div class="search-icon" onclick="searchitem()"><i style='font-size:3rem' class='fas'>&#xf002;</i></div>
           </div></li>
           <!-- This part is for both mobile and also desktop views -->
-          <li><a href="sell.html"><button>SELL</button></a></li>
+          <li><a href=""><button>SELL</button></a></li>
           <!-- This is profile seciton where shows the sign in and sign up after click -->
-          <li><a href="login.html"><div class="profile"><i style='font-size:3.5rem' class='far' >&#xf2bd;</i></div></a></li>
+          <li><div onclick="profile()" class="profile"><i style='font-size:3.5rem' class='far' >&#xf2bd;</i></div></li>
         </ul>
       </div>
       
@@ -127,126 +127,21 @@
     <!-- ==================================================End of Side Bar Area========================================================= -->
     <!-- ==================================================Main Area========================================================= -->
     <div class="main-area">
-      <div class="cards">
-        
-        <div class="card">
-          <a href="ads.html">
-          <div class="image-section">
-            <img src="images/b.jfif" alt="">
-          </div>
-        </a>
-          <div class="details-section">
-            <ul>
-              <li><a href="ads.html">The wonderful cycle for the best for you</a></li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>50000</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-        
+        <div class="sell-area">
+            <form action="">
+                <div class="ads-info">
+                    <label for="Ads title">Title : </label><input type="text" name="ads_name" required />
+                    <label for="price">Price : </label> <input type="number" name="ads_price" required />
+                    <label for="description">Description : </label> <textarea name="ads_description" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="contact-info">
 
-        <div class="card">
-          <a href="ads.html">
-            <div class="image-section">
-              <img src="images/b.jfif" alt="">
-            </div>
-          </a>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-section">
-            <img src="images/b2.jfif" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-section">
-            <img src="images/b.jfif" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-section">
-            <img src="images/b2.jfif" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-section">
-            <img src="images/b.jfif" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-section">
-            <img src="images/b.jfif" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-section">
-            <img src="images/b2.jfif" alt="">
-          </div>
-          <div class="details-section">
-            <ul>
-              <li>The wonderful cycle for the best for you</li>
-              <li><i style='font-size:1.4rem; margin-right: .5rem;' class='fas'>&#xf156;</i>Price</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='far'>&#xf073;</i>Date</li>
-              <li><i style='font-size:1.4rem; margin-right: 0.5rem;' class='fas'>&#xf041;</i>location</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div> <!--End of sell area  -->
     </div>
     <!-- ==================================================footer Area========================================================= -->
     <div class="footer-area">
@@ -292,6 +187,7 @@
           x.classList.remove("sidebar-link-open");
         }
       }
+
     </script>
 </body>
 </html>
