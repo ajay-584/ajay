@@ -128,18 +128,87 @@
     <!-- ==================================================Main Area========================================================= -->
     <div class="main-area">
         <div class="sell-area">
-            <form action="">
-                <div class="ads-info">
-                    <label for="Ads title">Title : </label><input type="text" name="ads_name" required />
-                    <label for="price">Price : </label> <input type="number" name="ads_price" required />
-                    <label for="description">Description : </label> <textarea name="ads_description" id="" cols="30" rows="10"></textarea>
-                </div>
-                <div class="contact-info">
-
-                </div>
-                <div>
-                    <input type="submit" value="Submit">
-                </div>
+          <form action="/">
+            <!-- <div><b>Ads details</b></div> -->
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Title/Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" class="sell_input" id="fname" name="firstname" placeholder="Ads name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Price</label>
+              </div>
+              <div class="col-75">
+                <input type="text" class="sell_input"  id="lname" name="lastname" placeholder="Ads price..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">Categroies</label>
+              </div>
+              <div class="col-75">
+                <select class="sell_input"  id="country" name="ads_cat">
+                  <option value="australia">Books</option>
+                  <option value="canada">Vahicle</option>
+                  <option value="usa">Phones</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">Sub_Categroies</label>
+              </div>
+              <div class="col-75">
+                <select class="sell_input"  id="country" name="sum_ads_cat">
+                  <option value="australia">Computer Science</option>
+                  <option value="canada">Machanical</option>
+                  <option value="usa">Food Technology</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Description</label>
+              </div>
+              <div class="col-75">
+                <textarea class="sell_input"  id="subject" name="subject" placeholder="Write ads details.." style="height:130px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">City</label>
+              </div>
+              <div class="col-75">
+                <select class="sell_input"  id="country" name="ads_cat">
+                  <option value="australia">Patna</option>
+                  <option value="canada">Darbhnage</option>
+                  <option value="usa">Madhubni</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Phone</label>
+              </div>
+              <div class="col-75">
+                <input type="text" class="sell_input"  id="lname" name="lastname" placeholder="Your mobile number..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Addres</label>
+              </div>
+              <div class="col-75">
+                <textarea class="sell_input"  id="subject" name="subject" placeholder="Write your addres.." style="height:130px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" class="sell_submit" value="Submit">
+            </div>
             </form>
         </div> <!--End of sell area  -->
     </div>
