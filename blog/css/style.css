@@ -60,6 +60,17 @@ body{
     word-wrap: break-word;
     text-align: justify;
 }
+.codes{
+    background-color: rgba(45, 50, 55, 0.91);
+    color: #fff;
+    font-family: "Courier New" Courier monospace;
+    /* overflow-wrap: break-word; */
+    /* word-wrap: break-word; */
+}
+.artical_img img {
+    width: 100%;
+    box-shadow: 1px 1px 1px rgb(88, 88, 88);
+}
 /* -----------------------------footer------------------------------- */
 .footer {
     background-color: #000;
