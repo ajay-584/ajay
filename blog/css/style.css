@@ -56,6 +56,12 @@ body{
     border: 1px solid gray;
     box-shadow: 1px 1px 1px rgb(88, 88, 88);
 }
+.artical_head {
+    color: rgb(43, 59, 203);
+}
+.artical_sub_head {
+    color: rgb(150, 30, 43);
+}
 .articals p {
     word-wrap: break-word;
     text-align: justify;
@@ -68,7 +74,9 @@ body{
     /* word-wrap: break-word; */
 }
 .artical_img img {
-    width: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
+    overflow-x: scroll;
     box-shadow: 1px 1px 1px rgb(88, 88, 88);
 }
 /* -----------------------------footer------------------------------- */
