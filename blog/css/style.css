@@ -55,7 +55,10 @@ body{
     border: 1px solid gray;
     box-shadow: 1px 1px 1px rgb(88, 88, 88);
 }
-
+.articals p {
+    word-wrap: break-word;
+    text-align: justify;
+}
 /* -----------------------------footer------------------------------- */
 .footer {
     background-color: #000;
