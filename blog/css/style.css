@@ -14,7 +14,8 @@ body{
 }
 .logo{
     padding: .5rem;
-    font-weight: bold;
+    font-size: .8rem;
+    /* font-weight: bold; */
 }
 .links ul{
     display: flex;
