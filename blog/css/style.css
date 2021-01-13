@@ -46,7 +46,7 @@ body{
     box-shadow: 0px 1px 1px rgb(88, 88, 88);
 }
 .logo{
-    padding: .5rem;
+    padding-left: .1rem;
     font-size: .8rem;
     display: flex;
     /* font-weight: bold; */
